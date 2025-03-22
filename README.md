@@ -143,8 +143,4 @@ If you have any questions or feedback, feel free to reach out:
 
 ---
 
-Thank you for checking out my project! 😊
-
----
-
-Feel free to customize this README file to match your project and personal style! 
+Thank you for checking out my project! 
