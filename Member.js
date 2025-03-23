@@ -6,8 +6,6 @@ const memberSchema = new mongoose.Schema({
   gender: { type: String, enum: ['Male', 'Female', 'Other'], required: true },
   contact: { type: String, required: true },
   membershipType: { type: String, enum: ['Monthly', 'Yearly'], required: true },
-  startDate: { type: Date, default: Date.now },
-  attendance: [{ type: Date }] // Array to store attendance dates
 });
 
 module.exports = mongoose.model('Member', memberSchema);
